@@ -1,16 +1,39 @@
-h1 {
-  text-align: center;
+*{
+  padding: 0;
+  margin
 }
-
 body {
   text-align: center;
-  background-size: cover;
   color: #000000;
   font-family: sans-serif;Ariel; 
   font-size: 13px
+}
+
+a{
+  color: #006738;
+  text-decoration: none;
+  margin: 20px;
+  padding: 20px
+  text-align:center;
+}
+
+.boxlogo{
+  width: 50%
 
 }
 
+.mainpic{
+  width: 80%
+}
+
+.shop{
+  width: 50%
+}
+
+img{
+  width: 100%
+
+}
 
 
 
@@ -21,4 +44,5 @@ form {
                 font-size: 15px
 
 }
+
 
