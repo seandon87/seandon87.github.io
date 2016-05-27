@@ -1,12 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
 *{
   padding: 0;
   margin
+
 }
 body {
   text-align: center;
   color: #000000;
-  font-family: sans-serif;Ariel; 
+  font-family: 'Raleway', sans-serif;
   font-size: 13px
+
 }
 
 a{
@@ -15,6 +20,17 @@ a{
   margin: 20px;
   padding: 20px
   text-align:center;
+  font-size: 1.2em;
+
+}
+
+h2{
+  font-size: 1.5em
+  
+}
+
+h3{
+  color: rgba(0,0,0,0.4);
 }
 
 .boxlogo{
@@ -40,7 +56,7 @@ img{
 form {
                 width:500px;
                 margin:40px auto;
-                font-family: sans-serif;Ariel;
+                font-family: 'Raleway', sans-serif;
                 font-size: 15px
 
 }
