@@ -17,20 +17,32 @@ body {
 a{
   color: #006738;
   text-decoration: none;
-  margin: 20px;
-  padding: 20px
+  margin: 1.4em;
   text-align:center;
   font-size: 1em;
+  font-weight: 600;
 
+}
+
+nav{
+  margin:2em;
+  letter-spacing: 2px;
+}
+
+footer{
+  margin: 2em;
+  letter-spacing: 2px;
+}
+
+
+h3{
+  color: rgba(0,0,0,0.4);
 }
 
 h2{
   font-size: 1.5em
-
-}
-
-h3{
-  color: rgba(0,0,0,0.4);
+  color: rgba(0,0,0,0.8);
+  margin: 1.5em auto;
 }
 
 .boxlogo{
@@ -39,11 +51,11 @@ h3{
 }
 
 .mainpic{
-  width: 80%
+  width: 90%
 }
 
 .shop{
-  width: 50%
+  width: 60%
 }
 
 img{
@@ -57,7 +69,7 @@ form {
                 width:500px;
                 margin:40px auto;
                 font-family: 'Raleway', sans-serif;
-                font-size: 15px
+                font-size: 1em
 
 }
 
