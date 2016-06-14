@@ -18,11 +18,11 @@ nav{
   padding: 2em;
   margin: 2em;
   text-align: center;
-  /*background-color: #55967e;*/
+  background-color: #55967e;
 }
 
 form {
-      /*background-color: #6C49B8;*/
+      background-color: #6C49B8;
       width:33em;
       margin:2em auto;
       text-align: center;
@@ -32,7 +32,7 @@ form {
 
 header{
   text-align: center;
-  /*background-color: #4F86C6;*/
+  background-color: #4F86C6;
   margin: 2em;
   padding: 2em;
 }
@@ -59,7 +59,7 @@ a{
   text-align:center;
   font-size: 1em;
   font-weight: 600;
-  /*background-color: #f9d423;*/
+  background-color: #f9d423;
 }
 
 footer{
@@ -67,13 +67,13 @@ footer{
   margin: 4em 2em;
   padding: 3em;
   letter-spacing: 2px;
-  /*background-color: #55967e;*/
+  background-color: #55967e;
 }
 
 p{
   text-align: center;
   margin-bottom:  2em;
-  /*background-color: #5CAB7D;*/
+  background-color: #5CAB7D;
 }
 
 main:after{
@@ -86,7 +86,7 @@ main:after{
   width: 100%;
   max-width: 1080px;
   margin: 0 auto;
-  /*background-color: #e4e7ec;*/
+  background-color: #e4e7ec;
 }
 
 .t-shirt{
@@ -95,7 +95,7 @@ main:after{
   margin: 1em;
   text-align: center;
   float: left;
-  /*background-color: #fab1ce;*/
+  background-color: #fab1ce;
   display: block;
 }
 
