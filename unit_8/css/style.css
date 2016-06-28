@@ -86,7 +86,7 @@ p{
   display: none;
 }
 
-main:after{
+.clear:after{
   content: "";
   display: block;
   clear: both;
@@ -204,17 +204,23 @@ width: 33em;
 
     .navlinks{
       display: none;
+      width: 100%;
     }
 
 
     #mobile {
       display: block;
       font-size: 2.5em;
+      float: left;
     }
 
-    nav:hover a {
-      display: block;
+    .fa-shopping-bag{
+      float: right;
     }
+
+    /*nav:hover a {
+      display: block;
+    }*/
 
     nav {
       margin: 0;

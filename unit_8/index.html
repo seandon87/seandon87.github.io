@@ -4,16 +4,20 @@
 	<head>
 		<title>SPORTS CLASS</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
 
 	</head>
 
 <body>
 	<div id="wrapper">
 			<nav>
-				<a id="mobile" href="#">&#9776;</a>
-				
+				<div class="clear">
+					<a id="mobile" href="#">&#9776;</a>
+					<a class="fa fa-shopping-bag"></a>
+				</div>
 				<a class="navlinks" href="#">LOG IN</a>
 				<a class="navlinks" href="#">SHOP</a> 
 				<a class="navlinks" href="#">WHOLESALE</a>
@@ -33,7 +37,7 @@
 				<img src="images/home_2.jpg" alt="picture of Pete Solvyns FS Shuv Sydney 2016" title="Pete Solvyn FS Shuv 2016" class="mainpic">
 			</header>
 
-			<main>
+			<main class="clear">
 				<a href="t-shirt1.html" class="t-shirt">
 					<img src="images/product_front_1.jpg" alt="SPORTS CLASS CIRCLE LOGO PRINT ON WHITE T-SHIRT" title="SPORTS CLASS CIRCLE T-SHIRT WHITE" class="shop">
 					<h3>SPORTS CLASS CIRCLE TEE</h3>
@@ -96,7 +100,17 @@
 		</footer>	
 
 			<p>&copy; 2016 Sportsclass Pty Ltd.</p>
-	</div>	 
+	</div>	
+	<script type="text/javascript">
+			// A $( document ).ready() block.
+			$( document ).ready(function() {
+			    console.log( "ready!" );
+			    $("#mobile").click(function(){
+			    	$(".navlinks").slideToggle();
+			    });
+			});
+	</script> 
 </body>
+
 
 </html>
