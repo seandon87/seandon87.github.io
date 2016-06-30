@@ -82,9 +82,11 @@ p{
   
 }
 
-#mobile {
+nav div{
   display: none;
 }
+
+
 
 .clear:after{
   content: "";
@@ -143,9 +145,6 @@ width: 33em;
   outline: none;
 }
 
-.shop{
-  width: 
-}
 
 @media only screen and (max-width: 980px){
     .t-shirt{
@@ -207,6 +206,9 @@ width: 33em;
       width: 100%;
     }
 
+    nav div{
+      display: block;
+    }
 
     #mobile {
       display: block;
@@ -216,6 +218,8 @@ width: 33em;
 
     .fa-shopping-bag{
       float: right;
+      padding: 0 1em;
+      margin-top: .4em;
     }
 
     /*nav:hover a {
