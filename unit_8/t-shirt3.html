@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
-		<title>SPORTS CLASS CIRCLE LOGO T</title>
+		<title>SPORTS CLASS</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	</head>
 
 <body>
 	<div id="wrapper">
 			<nav>
+				<div class="clear">
+					<a id="mobile" href="#">&#9776;</a>
+					<a class="fa fa-shopping-bag fa-2x"></a>
+				</div>
 				<a class="navlinks" href="log_in.html">LOG IN</a>
 				<a class="navlinks" href="index.html">SHOP</a> 
 				<a class="navlinks" href="wholesale.html">WHOLESALE</a>
@@ -44,6 +52,16 @@
 		</footer>	
 
 			<p>&copy; 2016 Sportsclass Pty Ltd.</p>
+	</div>	
+	<script type="text/javascript">
+			// A $( document ).ready() block.
+			$(document).ready(function() {
+			    console.log( "ready!" );
+			    $("#mobile").click(function(){
+			    	$(".navlinks").slideToggle("slow");
+			    });
+			});
+	</script> 
 	</div>	 
 </body>
 
