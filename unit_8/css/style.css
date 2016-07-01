@@ -201,15 +201,6 @@ width: 33em;
       margin-top: 2em;
     }
 
-    .navlinks{
-      display: none;
-      width: 100%;
-    }
-
-    nav div{
-      display: block;
-    }
-
     #mobile {
       display: block;
       font-size: 2.5em;
@@ -221,6 +212,15 @@ width: 33em;
       float: right;
       padding: 0 1em;
       margin-top: .4em;
+    }
+
+    .navlinks{
+      display: none;
+      width: 100%;
+    }
+
+    nav div{
+      display: block;
     }
 
     /*nav:hover a {
