@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>SPORTS CLASS</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	</head>
+
+<body>
+	<div id="wrapper">
+			<nav>
+				<div class="clear">
+					<a id="mobile" href="#">&#9776;</a>
+					<a class="fa fa-shopping-bag fa-2x"></a>
+				</div>
+				<a class="navlinks" href="log_in.html">LOG IN</a>
+				<a class="navlinks" href="index.html">SHOP</a> 
+				<a class="navlinks" href="wholesale.html">WHOLESALE</a>
+				<a class="navlinks" href="contact.html">CONTACT</a>
+				<a class="navlinks" href="team.html">TEAM</a>
+				<a class="navlinks" href="cart.html">CART</a>
+			</nav>
+
+			<form>
+				 <input type="text" placeholder="Search..." class="searchinput">
+				 <input type="button" value="Search" class="searchbutton">
+			</form>
+
+			<header>
+				<a href="index.html" class="boxlogo">
+				<img src="images/logo_2.jpg" alt="picture of sports class box logo"
+				title="SPORTS CLASS BOX LOGO" class="boxlogo">
+				</a> 
+			</header>
+
+			<main>
+				<img src="images/wholesale.jpg" alt="Solvyns and Frazetto 2016 shot by MARK OMEALLY" title="Solvyns and Frazetto 2016 shot by MARK OMEALLY" class="WHOLESALE">
+			</main>
+
+
+		<footer>
+			<a class="navlinks" href="#">TERMS AND CONDITIONS</a> 
+			<a class="navlinks" href="https://www.instagram.com/sportsclass/">INSTAGRAM</a>
+			<a class="navlinks" href="#">CUSTOMER SERVICE</a>
+		</footer>		
+
+			<p>&copy; 2016 Sportsclass Pty Ltd.</p>
+	</div>	
+	<script type="text/javascript">
+			// A $( document ).ready() block.
+			$(document).ready(function() {
+			    console.log( "ready!" );
+			    $("#mobile").click(function(){
+			    	$(".navlinks").slideToggle("slow");
+			    });
+			});
+	</script> 
+	</div>	 
+</body>
+
+</html>

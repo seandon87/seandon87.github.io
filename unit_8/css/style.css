@@ -127,7 +127,6 @@ width: 33em;
   margin: 1%;
   text-align: center;
   float: left;
-  
   display: block;
 }
 
@@ -144,6 +143,24 @@ width: 33em;
   border: 0;
   outline: none;
 }
+
+
+  /*@media only screen and (min-width: 915px){
+    .t-shirt{
+      position: relative;
+      background-color: orange;
+    }
+
+    .t-shirt h3, h4{
+      
+      display: none;
+    }
+
+     .t-shirt:hover > h3{
+      display: block;
+      
+    }
+}*/
 
 
 @media only screen and (max-width: 980px){
@@ -263,6 +280,9 @@ width: 33em;
       width: auto;
       
     } 
+}
+
+
 
 
 }
